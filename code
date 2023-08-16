@@ -1,0 +1,44 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int day;
+    cout << "Type numbers from 1-7 to reveal the corresponding day: ";
+    cin >> day;
+
+    switch (day) {
+        case 1:
+            cout << "The Day Is Monday";
+            break;
+
+        case 2:
+            cout << "The Day Is Tuesday";
+            break;
+
+        case 3:
+            cout << "The Day Is Wednesday";
+            break;
+
+        case 4:
+            cout << "The Day Is Thursday";
+            break;
+
+        case 5:
+            cout << "The Day Is Friday";
+            break;
+
+        case 6:
+            cout << "The Day Is Saturday";
+            break;
+
+        case 7:
+            cout << "The Day Is Sunday";
+            break;
+
+        default:
+            cout << "Invalid input! Please enter a number between 1 and 7.";
+            break;
+    }
+
+}
